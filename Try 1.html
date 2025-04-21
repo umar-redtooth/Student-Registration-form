@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="grid-container">
+
+       
+        <div class="i1">
+            <img src="AB.png" alt="Nahi ha">  
+            
+        </div>
+
+
+        <div class="i2">
+
+            <strong>ABC Institute of Technology</strong>
+            No 124/2,<br>
+            Galle road,<br>
+            Mount Lavinia<br>
+            Tel: 011 1231231     E-mail: inst.infoABC@gmail.com
+        </div>
+
+        
+        <div class="i3">
+            <img src="OCI.jpeg" alt="nahi ha">
+        </div>
+
+        
+        <div class="i4">
+            Student Registration Form
+        </div>
+
+        
+        <div class="i5">
+
+            
+            <div class="section-header">
+                <span>Student Information</span>
+            </div>
+
+            <div class="form-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full_name">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="text" id="dob" name="dob">
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="gender-options">
+                     <span class="gender-option">• Male</span>
+                     <span class="gender-option">• Female</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality">
+            </div>
+
+            <div class="form-group">
+                <label for="contact-info-student">Contact Information:</label>
+                <input type="text" id="contact-info-student" name="contact_info_student">
+            </div>
+
+           
+            <div class="section-header">
+                <span>Parent/Guardian Information</span>
+            </div>
+
+            <div class="form-group">
+                <label for="parent-name">Parent/Guardian Name(s):</label>
+                <input type="text" id="parent-name" name="parent_name">
+            </div>
+
+            <div class="form-group">
+                <label for="relationship">Relationship to Student:</label>
+                <input type="text" id="relationship" name="relationship">
+            </div>
+
+            <div class="form-group">
+                <label for="contact-info-parent">Contact Information<br>(Phone Number, Email):</label>
+                <input type="text" id="contact-info-parent" name="contact_info_parent">
+            </div>
+
+             <div class="form-group">
+                <label for="emergency-contact">Emergency Contact<br>Information:</label>
+                <input type="text" id="emergency-contact" name="emergency_contact">
+            </div>
+
+            
+            <div class="section-header">
+                <span>Education Information</span>
+            </div>
+
+             <div class="form-group">
+                <label for="school-name">School/Institution Name:</label>
+                <input type="text" id="school-name" name="school_name">
+            </div>
+
+            <div class="form-group">
+                <label for="grad-date">Graduation Date:<br>(if applicable)</label>
+                <input type="text" id="grad-date" name="grad_date">
+            </div>
+
+            <div class="form-group">
+                 <label for="how-heard">How did you hear about us?</label>
+                 <input type="text" id="how-heard" name="how_heard">
+            </div>
+
+            <div class="form-group">
+                 <label for="why-interested">Why are you interested in our program?</label>
+                 <input type="text" id="why-interested" name="why_interested">
+            </div>
+
+
+            <div class="form-group agreement full-width">
+                 <label class="agreement-label">Are you Agree to the terms and conditions of enrollment?<br>»Terms and Conditions
+                 </label>
+                 <div class="agreement-options">
+
+                      <input type="radio" id="agree-yes" name="agreement" value="yes" class="agreement-radio">
+                      <label for="agree-yes" class="agreement-text-label agree-yes">Yes</label>
+
+                      <input type="radio" id="agree-no" name="agreement" value="no" class="agreement-radio">
+                      <label for="agree-no" class="agreement-text-label agree-no">No</label>
+                 </div>
+            </div>
+
+            <div class="form-group signature-section full-width">
+                <label for="signature">Signature of the student and, if the student is a minor, a parent or guardian</label>
+                <div class="signature-box" id="signature"></div>
+            </div>
+
+        </div> 
+    </div> 
+</body>
+</html>
